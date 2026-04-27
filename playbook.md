@@ -67,7 +67,7 @@ Product-minded engineering is not only about how we think. It changes how we wor
 
 ### Before we build
 
-Before we build, our job is not only to code and deliver what was asked. It is to find and solve problems in the best way possible. That starts by connecting with the why behind the work. Understanding the problem is not owned by any one team; it is part of how strong engineers create value. It brings us closer to the customer, helps us contribute better ideas earlier, and gives us the context to make better technical and product decisions.
+Before we build, our job is not only to code and deliver what was asked. It is to find and solve problems in the best way possible. That starts by connecting with the why behind the work. Understanding the problem is not owned by any one team, but everyone; it is part of how strong engineers create value. It brings us closer to the customer, helps us contribute better ideas earlier, and gives us the context to make better technical and product decisions.
 
 An engineer reaches their full impact when they are deeply involved in the problem, not only in the implementation. With real context, we can shape scope, challenge assumptions, and find a better path forward. That usually leads to simpler solutions, better trade-offs, and systems that are easier to evolve.
 
