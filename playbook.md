@@ -14,7 +14,10 @@
    - After launch
 6. Roles and expectations
    - Engineers
-   - Managers and tech leads
+   - Squad Leaders
+   - Godfathers
+   - Engineering Managers
+   - PMs and Designers
 7. Lean spec template
 8. Planning review checklist
 9. Review trigger matrix
@@ -110,3 +113,89 @@ This is where being data-driven becomes concrete. We want instrumentation, dashb
 After launch, we validate whether the work solved the problem. If it did, we build on it. If it did not, we fix it, adjust it, or change direction based on what we learned. And if we find issues while the squad is still active, we do not wait passively for the sprint to end. We align with Product, solve what matters in real time, and protect the customer experience.
 
 This is also where Engineering and Product come back together most clearly. We share what worked, what failed, and what we should do next. We ship, we measure, and we learn. That is how we avoid confusing delivery with impact.
+
+## 6. Roles and expectations
+
+Ownership is one of the most important parts of making product-minded engineering work in practice. Everyone involved in a squad contributes to the product workflow, but not everyone carries the same kind of ownership. Some roles are closer to discovery, some are closer to delivery, and some exist to create leverage, unblock decisions, or grow the people doing the work.
+
+Clear ownership helps the squad move faster because people know who to defer to for decisions, who should be consulted, and who is accountable for moving each part of the work forward. It reduces ambiguity, prevents unnecessary approval loops, and makes it easier to keep momentum without losing quality or alignment.
+
+### Engineers
+
+Engineers are the role with the strongest ownership over building the agreed scope. They are not only ticket-takers or implementers; they are expected to understand the problem, participate in shaping the solution, ask questions, challenge assumptions, and stay connected to the customer outcome.
+
+Product, Design, Squad Leaders, and Godfathers can help shape, unblock, and refine the work, but engineers carry day-to-day ownership over implementation quality, progress, and delivery.
+
+Engineers are expected to:
+
+- Understand the why behind the work before building.
+- Participate in problem framing, trade-off discussions, and scope decisions.
+- Build the agreed scope with quality, maintainability, observability, and performance in mind.
+- Communicate blockers, risks, and changes early.
+- Ask for clarification when requirements, UX, or success criteria are unclear.
+- Help validate the work after launch through bugs, usage, feedback, and data.
+
+### Squad Leaders
+
+The Squad Leader is an engineer with broader ownership over the squad's delivery. They lead execution from inside the work, not from above it. This role combines technical execution, product context, communication, and lightweight project management.
+
+The Squad Leader helps the squad move from scope to shipped product. They stay hands-on, help break down the work, write or refine stories, coordinate QA, communicate progress, and make sure Product and Design are aligned before release.
+
+Squad Leaders are expected to:
+
+- Lead execution while staying close to the code.
+- Help break scope into clear, shippable pieces.
+- Pair with engineers and unblock day-to-day implementation.
+- Keep Product and Design informed about progress, trade-offs, QA, and release timing.
+- Help write or refine stories so the team knows what needs to be built.
+- Own the squad's delivery rhythm and make sure risks are visible early.
+- Protect both momentum and quality.
+
+### Godfathers
+
+The Godfather oversees one or two squads in the same product context. They are not usually responsible for day-to-day execution, but they carry strong ownership of the squad's deliverables and context around the work. Their role is to create technical leverage: unblock engineers, review important PRs, challenge weak plans, help with architecture, and make sure the squad is making sound technical decisions.
+
+Because Godfathers have broader context, they are also important connectors. They help bring the broader product and technical vision into the squad, bridge communication with other stakeholders, and make sure local decisions fit the direction of the company and the codebase.
+
+The Godfather should be involved enough to understand the product workflow and delivery risks, but not so involved that every decision depends on them.
+
+Godfathers are expected to:
+
+- Stay close enough to the squad context to give useful guidance.
+- Review important PRs and technical decisions.
+- Unblock engineers and Squad Leaders when they hit complexity or ambiguity.
+- Help identify architectural risks, technical debt, and hard-to-reverse decisions.
+- Raise the engineering bar without slowing the squad unnecessarily.
+- Own the technical health and delivery confidence of the squads they support.
+- Coach engineers through decisions instead of centralizing all authority.
+
+### Engineering Managers
+
+Engineering Managers are primarily responsible for the growth of engineers. Their focus is development plans, career growth, feedback, performance, motivation, and making sure engineers are growing into the level of ownership expected from the team.
+
+They are not the main execution owner for squad delivery. They should understand the work well enough to coach effectively and spot patterns, but their main responsibility is the person, not the project.
+
+Engineering Managers are expected to:
+
+- Support engineers' growth, career development, and performance.
+- Help engineers build stronger product judgment, communication, and ownership.
+- Give feedback regularly and clearly.
+- Identify growth gaps in technical skills, product thinking, collaboration, or execution.
+- Partner with Squad Leaders and Godfathers to understand how engineers are performing in real work.
+- Create development plans that help engineers increase their impact.
+- Protect a high bar for engineering culture and expectations.
+
+### PMs and Designers
+
+PMs and Designers are essential to product-minded engineering. They bring depth on the customer problem, product direction, user experience, and the definition of success. Their work gives the squad the clarity it needs to make good decisions and build something that actually solves the problem.
+
+In this model, they are not alone in translating product thinking into execution. Squad Leaders help with story-writing, QA, release communication, and alignment. Engineers participate earlier and more actively than in a traditional handoff model.
+
+PMs and Designers are expected to:
+
+- Bring customer, business, and product context into the squad.
+- Partner with engineers early, before the solution is fully locked.
+- Define the user experience and success criteria clearly.
+- Collaborate with Squad Leaders on stories, QA, and release readiness.
+- Stay available during execution as trade-offs and edge cases appear.
+- Help validate whether the shipped work solved the problem.
