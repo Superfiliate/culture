@@ -18,13 +18,9 @@
    - Godfathers
    - Engineering Managers
    - PMs and Designers
-7. Lean spec template
-8. Planning review checklist
-9. Review trigger matrix
-10. Spec clinics and planning reviews
-11. Examples library
-12. Adoption plan
-13. Signs this is working
+7. What good looks like
+8. Common anti-patterns
+9. Signs this is working
 
 ## 1. Why this playbook exists
 
@@ -199,3 +195,51 @@ PMs and Designers are expected to:
 - Collaborate with Squad Leaders on stories, QA, and release readiness.
 - Stay available during execution as trade-offs and edge cases appear.
 - Help validate whether the shipped work solved the problem.
+
+## 7. What good looks like
+
+Product-minded engineering is easy to agree with in theory. The real test is whether it changes how a team behaves when the work is ambiguous, trade-offs are uncomfortable, or the path forward is not obvious.
+
+When this mindset is working, it shows up in small but important ways: better questions, clearer ownership, simpler solutions, earlier communication, stronger judgment, and more curiosity after launch. And when all of these engines are clocking well together, it creates a special kind of momentum. The team feels sharper, faster, more connected to the problem, and more confident in the decisions it is making.
+
+These signals are not a checklist or a process. They are what we expect to see when a team is using product context to build with more ownership and impact.
+
+### From task ownership to problem ownership
+
+- Engineers understand the problem, not only the ticket.
+- The team knows why the work matters now.
+- Customer and business impact are part of the conversation.
+- Questions are asked before the team commits to a solution.
+- People do not wait for perfect clarity, but they do not build blindly.
+
+### From blockers to options
+
+- Problems come with possible paths forward.
+- Trade-offs are made visible.
+- Speed, scope, quality, and simplicity are discussed honestly.
+- Decisions come with a recommended path when possible.
+- Help is requested early enough that others can still help.
+
+### From implementation to product judgment
+
+- Details are evaluated based on whether they matter to the customer.
+- Simple is preferred when simple solves the problem.
+- The team separates what is needed for launch from what can evolve later.
+- Complexity is challenged when it does not serve the problem.
+- Quality is protected where it protects the customer or future speed.
+
+### From individual execution to squad leverage
+
+- People make the squad around them faster.
+- Context is shared before others have to ask.
+- Decisions, code, and systems are left easier to understand.
+- Product and Design understand technical constraints clearly.
+- The work does not depend on one person being the only one who can move it forward.
+
+### From shipping work to owning outcomes
+
+- The team cares what happens after launch.
+- Usage, feedback, bugs, and adoption are watched.
+- Important issues are closed while context is still fresh.
+- The team notices when something was delivered but did not solve the problem.
+- Learning is treated as part of the work.
