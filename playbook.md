@@ -243,3 +243,78 @@ These signals are not a checklist or a process. They are what we expect to see w
 - Important issues are closed while context is still fresh.
 - The team notices when something was delivered but did not solve the problem.
 - Learning is treated as part of the work.
+
+## 8. Common anti-patterns
+
+Product-minded engineering does not usually fail in obvious ways. It fades when people stop caring about the why, when silence replaces curiosity, when delivery becomes the only definition of success, or when people stop taking ownership over the outcome.
+
+These anti-patterns are not here to blame people. They are signals. When we notice them, we should treat them as a chance to pause, ask better questions, and bring the work back to the customer problem, the business context, and the standards we want for the team.
+
+### Going through the motions
+
+- People execute the task without caring about what we are building.
+- The work becomes about closing tickets, not creating impact.
+- Engineers are disconnected from the customer, the business, or the reason the work matters.
+- Nobody feels real ownership over whether the solution succeeds.
+
+### Building without knowing what success looks like
+
+- The team is building, but cannot explain what success looks like.
+- Success is defined as shipping, not solving the problem.
+- There is no clear signal for whether the work mattered.
+- Scope keeps moving because the outcome was never clear.
+
+### Hiding inside the technical problem
+
+- The team focuses only on architecture, implementation, or tools.
+- Technical decisions are disconnected from the customer problem.
+- Engineers optimize the system without understanding the user workflow.
+- The codebase improves, but the customer outcome does not.
+
+### Assuming instead of asking
+
+- People stay quiet when they are uncertain.
+- Ambiguity gets filled with assumptions.
+- Decisions happen silently.
+- Misalignment is discovered only after work is already built.
+- The team avoids uncomfortable conversations until they become expensive.
+
+### Building walls instead of bridges
+
+- Information stays with one person or one function.
+- Product, technical, and customer context do not travel across the squad.
+- People work around each other instead of with each other.
+- Handoffs replace collaboration.
+- The team creates dependencies instead of shared understanding.
+
+### Waiting for permission instead of taking ownership
+
+- People wait for approval on low-risk decisions.
+- Engineers avoid using judgment even when they have enough context.
+- Every small decision gets pushed to someone else.
+- Collaboration turns into dependency.
+- The team slows down because ownership is unclear or avoided.
+
+### Treating quality as separate from product work
+
+- Quality is treated as something outside the product decision.
+- Speed is used to justify avoidable fragility.
+- Technical debt is created without naming the trade-off.
+- Observability, reliability, and maintainability are postponed until they hurt.
+- The team forgets that quality is part of how we keep moving fast.
+
+### Polishing before learning
+
+- Work takes too long to merge because the first version tries to be perfect.
+- The team keeps refining details before there is enough signal.
+- The team keeps polishing even when no new learning is happening.
+- Code quality becomes confused with completeness.
+- The solution grows beyond what is needed to learn.
+- Momentum is lost because the slice is too large.
+
+### Calling it done when the code ships
+
+- The team treats merge or release as the finish line.
+- Nobody checks whether customers use what we built.
+- Feedback, bugs, and adoption are treated as someone else's problem.
+- The team moves on before learning whether the work solved the problem.
